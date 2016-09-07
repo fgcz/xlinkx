@@ -6,5 +6,5 @@
 ## Howto run?
 ```bash
 docker pull cpanse/xlinkx
-docker run -d -p 8787:8787 -v /scratch/jonas:/scratch/jonas cpanse/xlinkx
+docker run -d --name XLinkX -p 8787:8787 -v /scratch/jonas:/scratch/jonas cpanse/xlinkx
 ```
